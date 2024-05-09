@@ -1,5 +1,5 @@
-## Why this Project?
-### This project demonstrates what it takes to create an application such as a simple REST-API from local to production according to best practices gathered from different sources
+### Why this Project?
+#### This project demonstrates what it takes to create an application such as a simple REST-API from local to production according to best practices gathered from different sources
 
 The projects is broken down into 10 Milestones each of which contains Learning Outcomes,Problem Statement, Expectations and Materials Required
 
