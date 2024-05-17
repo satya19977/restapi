@@ -1,5 +1,5 @@
 ### Why this Project?
-#### This project is an attempt to understand what it takes to create an application such as a simple REST-API from local to production according to best practices gathered from different sources
+#### This project is an imitation of the the milestones achieved during my internship
 
 The projects is broken down into 10 Milestones each of which contains Learning Outcomes,Problem Statement, Expectations and Materials Required
 
@@ -73,6 +73,43 @@ API expectations
 <details>
 <summary><b>2 - Containerise REST API</b></summary>
 <!-- Include details for Milestone 2 here -->
+  
+  ## Learning Outcomes
+
+  Learnt how to Dockerise an application.
+
+  Learnt about Mutli-stage Dockerfile.
+
+  Learnt about Dockerfile best practices.
+
+## Problem Statement
+Create Dockerfile for the REST API.
+## Expectations
+
+
+    API should be run using the docker image.
+
+    Dockerfile should have different stages to build and run the API.
+
+    We should be able to inject environment variables while running the docker container at runtime.
+
+    README.md should be updated with proper instructions to build the image and run the docker container.
+
+    Similarly appropriate make targets should be added in the Makefile.
+
+    The docker image should be properly tagged using semver tagging, use of latest tag is heavily discouraged.
+
+    Appropriate measures should be taken to reduce docker image size. We want our images to have a small size footprint. 
+
+## Sources
+
+    Dockerfile Best Practices
+
+    Advanced Dockerfile
+
+    Hadolint
+
+    Semantic versioning
 </details>
 
 <details>
