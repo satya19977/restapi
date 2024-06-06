@@ -87,19 +87,19 @@ Create Dockerfile for the REST API.
 ## Expectations
 
 
-    API should be run using the docker image.
+    1) API should be run using the docker image.
 
-    Dockerfile should have different stages to build and run the API.
+    2) Dockerfile should have different stages to build and run the API.
 
-    We should be able to inject environment variables while running the docker container at runtime.
+    3) We should be able to inject environment variables while running the docker container at runtime.
 
-    README.md should be updated with proper instructions to build the image and run the docker container.
+    4) README.md should be updated with proper instructions to build the image and run the docker container.
 
-    Similarly appropriate make targets should be added in the Makefile.
+    5) Similarly appropriate make targets should be added in the Makefile.
 
-    The docker image should be properly tagged using semver tagging, use of latest tag is heavily discouraged.
+    6) The docker image should be properly tagged using semver tagging, use of latest tag is heavily discouraged.
 
-    Appropriate measures should be taken to reduce docker image size. We want our images to have a small size footprint. 
+    7) Appropriate measures should be taken to reduce docker image size. We want our images to have a small size footprint. 
 
 ## Sources
 
@@ -114,8 +114,30 @@ Create Dockerfile for the REST API.
 
 <details>
 <summary><b>3 - Setup one-click local development setup</b></summary>
-<!-- Include details for Milestone 3 here -->
+
+## Problem Statement
+  We want to simplify the process of setting up API on the local machine for development. The idea is to enable other   team members to run the API and its dependent services with the least amount of steps involved in getting this up and running. 
+  
+We won’t be assuming that other team members have the required tools already installed on their local. So we will be going one step further and providing them with simple bash functions to install the required tools.
+## Expectations
+
+  1)  API and its dependent services should be run using docker-compose.
+    
+  2)  README.md file should be updated with instructions
+     
+       i) To add pre-requisites for any existing tools that must already be installed (e.g., docker, make, etc)
+      
+  3)  When we run the make target to start the REST API docker container,
+     
+       i) Later it should invoke the docker compose command to start the API docker container and dependent services
+      
+ ## Source
+ 
+ Docker compose docs
+
 </details>
+
+
 
 
 <details>
