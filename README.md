@@ -1,4 +1,10 @@
-### Prerequisites for running the application on your system
+### Why this Project?
+This project is a culmination of the the milestones achieved during my internship
+
+The projects is broken down into 10 Milestones each of which contains Learning Outcomes,Problem Statement, Expectations and Sources.
+
+<details>
+<summary><b>0 - Prerequisites for running the application on your system</b></summary>
 
 This project requires the following tools to be installed on your system:
 
@@ -48,11 +54,11 @@ This project requires the following tools to be installed on your system:
         DB_NAME=
         MYSQL_ROOT_PASSWORD= 
 
-5) Use make commands to run docker compose
-### Why this Project?
-#### This project is an imitation of the the milestones achieved during my internship
+5) Use make commands in the Makefile  to run docker compose
 
-The projects is broken down into 10 Milestones each of which contains Learning Outcomes,Problem Statement, Expectations and Materials Required
+</details>
+
+
 
 <details>
 <summary><b>1 - Create a simple REST API Webserver</b></summary>
