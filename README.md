@@ -42,19 +42,19 @@ This project requires the following tools to be installed on your system:
    
     Follow the installation instructions specific to your operating system (Windows, macOS, or Linux).
 
-3) Install Mysql and configure it(The version used in the application is 8.0)
+3) Install Mysql and configure it (The version used in the application is 8.0)
 
 3) Create a .env file to inject the following environment variables into the container
 
 
-        DB_USER=     Fill in the required details created as part of step3
+        DB_USER=     
         DB_PASSWORD=
-        DB_HOST=
+        DB_HOST=             Fill in the required details created as part of step 3
         DB_PORT=
         DB_NAME=
         MYSQL_ROOT_PASSWORD= 
 
-5) Use make commands in the Makefile  to run docker compose
+5) Use make commands in the Makefile  to run docker compose (Complete step 4)
 
 </details>
 
