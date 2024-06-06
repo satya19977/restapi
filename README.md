@@ -1,3 +1,54 @@
+### Prerequisites for running the application on your system
+
+This project requires the following tools to be installed on your system:
+
+1) Make
+
+   i) Windows Users (Chocolatey):
+
+   Install Chocolatey from https://chocolatey.org/.
+   
+   Open a terminal window and run:
+   
+        choco install make 
+        
+   ii) Mac users(Homebrew):
+   
+   Open Terminal and run:
+   
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" 
+   
+   Follow the on-screen instructions for Homebrew installation. Then, run:
+   
+        brew install make 
+
+   iii) For Debian based distro run
+   
+         sudo apt-get update && sudo apt-get install make
+
+   iv) For RPM based distro
+   
+         sudo yum update && sudo yum install make
+
+2) Docker
+   
+    Visit the official Docker documentation: https://docs.docker.com/engine/install/
+   
+    Follow the installation instructions specific to your operating system (Windows, macOS, or Linux).
+
+3) Install Mysql and configure it(The version used in the application is 8.0)
+
+3) Create a .env file to inject the following environment variables into the container
+
+
+        DB_USER=     Fill in the required details created as part of step3
+        DB_PASSWORD=
+        DB_HOST=
+        DB_PORT=
+        DB_NAME=
+        MYSQL_ROOT_PASSWORD= 
+
+5) Use make commands to run docker compose
 ### Why this Project?
 #### This project is an imitation of the the milestones achieved during my internship
 
