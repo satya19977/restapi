@@ -1,5 +1,5 @@
-### Why this Project?
-This project is a culmination of the the milestones achieved during my internship
+### Why this Project?(Work in Progress)
+This project is an attempt to bring together the best practices for end to end deployment of an appication. It is a RESTAPI written in golang
 
 The projects is broken down into 10 Milestones each of which contains Learning Outcomes,Problem Statement, Expectations and Sources.
 
